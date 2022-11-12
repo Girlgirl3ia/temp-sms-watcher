@@ -4,7 +4,6 @@ from numberGen import smsreceivefree
 global pattern, timeRange
 pattern = ''
 timeRange = 20
-
 def usage():
   print ('\nUsage: \n')
   print ('python '+sys.argv[0]+' --country=usa|canada|united-kingdom fetches a temporary number for specified country')
